@@ -15,9 +15,6 @@
     width: 30px;
 }
 /*Navigator bar*/
-.container{
-    position: relative;
-}
 .topnav {
     overflow: hidden;
     background-color: #333333be;
@@ -25,7 +22,6 @@
     position: fixed;
     width: 100%;
 }
-  
 .topnav a {
     float: left;
     color: #ffffff;
@@ -53,14 +49,20 @@
 }
 
 /*background image*/
-.background-image{
-    /* Center and scale the image nicely */
-    width: 1535px;
-    height: 700px;
-    overflow: hidden;
-    position: absolute;
-}
+.imgbackground{
+    background-image: url("/images.png");
+    width: 1525px;
+    height: 690px;
+    
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
+  /* Needed to position the navbar */
+  position: relative;
+
+}
 /*small window show welcome sign*/
 .welcomeNotice{ 
     position: relative;
