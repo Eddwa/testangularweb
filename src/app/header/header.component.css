@@ -1,6 +1,6 @@
 .intro{
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     left: 0;
     top: 0;
     width: 100%;
@@ -21,12 +21,13 @@
     top: 0px;
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 .topnav a {
     float: left;
     color: #ffffff;
     text-align: center;
-    padding: 25px 20px;
+    padding: 25px 70px 25px 70px;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
@@ -51,22 +52,19 @@
 /*background image*/
 .imgbackground{
     background-image: url("/images.png");
-    width: 1525px;
-    height: 690px;
-    
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
+  width: 1660px;
+  height: 885px;
   /* Needed to position the navbar */
   position: relative;
-
 }
 /*small window show welcome sign*/
 .welcomeNotice{ 
     position: relative;
-    top: 200px;
+    top: 300px;
     left: 80px;
     background-color: #333333be;
     padding: 50px 34px;
@@ -75,11 +73,11 @@
     font-weight: bold;
     animation-name: welboard;
     animation-timing-function: ease;
-    animation-duration: 4s;
-    animation-delay: 2.4s;
+    animation-duration: 2s;
+    animation-delay: 2.3s;
 }
 @keyframes welboard {
-    0% {left: -50px;}
+    0% {left: -100vh;}
     100% {left: 80px;}
 }
 .welcomeNotice h1{

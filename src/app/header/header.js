@@ -6,4 +6,5 @@ window.addEventListener("DOMContentLoaded",()=>{
     setTimeout(()=>{
         intro.style.top = '-100vh';
     },2000)
+    window.scrollTo(0,0);
 })

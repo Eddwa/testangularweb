@@ -31,7 +31,8 @@
             ],
             "scripts": [
               "src/app/main.js",
-              "src/app/header/header.js"
+              "src/app/header/header.js",
+              "src/app/registration-form/main.js"
             ],
             "server": "src/main.server.ts",
             "outputMode": "server",

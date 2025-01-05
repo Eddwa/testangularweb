@@ -1,0 +1,1 @@
+console.log("register min.js is working!!")
